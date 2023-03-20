@@ -1,3 +1,4 @@
+import br.com.dio.Conteudo;
 import br.com.dio.Curso;
 import br.com.dio.Mentoria;
 
@@ -8,13 +9,15 @@ public class Main {
 
         Curso curso1 = new Curso();
         curso1.setTitulo("curso java");
-        curso1.setDescreicao("descricao curso java");
+        curso1.setDescricao("descricao curso java");
         curso1.setCargaHoraria(8);
 
         Curso curso2 = new Curso();
         curso2.setTitulo("curso js");
-        curso2.setDescreicao("descricao curso js");
+        curso2.setDescricao("descricao curso js");
         curso2.setCargaHoraria(4);
+
+        Conteudo conteudo = new Curso();
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
